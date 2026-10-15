@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS salaries_sf;
+
+SET LOAD SCAN_ROWS 50000
+LOAD Salaries.csv
